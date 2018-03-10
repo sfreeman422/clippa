@@ -1,62 +1,140 @@
-import React from 'react';
-import { StyleSheet, Text, View, Button, CameraRoll } from 'react-native';
+import React, { Component } from "react";
+import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
+import { NativeRouter, Route, Link } from "react-router-native";
 
-export default class App extends React.Component {
+import PhotoLibrary from "./components/PhotoLibrary";
+
+export default () => (
+  <View style={{ flex: 1 }}>
+    <Router />
+  </View>
+);
+
+const Home = () => (
+  <View
+    style={{
+      flexDirection: "column",
+      justifyContent: "space-around",
+      flex: 0.5
+    }}
+  >
+    <Link
+      to="/cameraRoll"
+      component={TouchableOpacity}
+      underlayColor="#f0f4f7"
+      style={styles.navItem}
+    >
+      <Text style={styles.homeButton}> Camera Roll</Text>
+    </Link>
+    <Link
+      to="/cameraRoll"
+      component={TouchableOpacity}
+      underlayColor="#f0f4f7"
+      style={styles.navItem}
+    >
+      <Text style={styles.homeButton}> Take a photo</Text>
+    </Link>
+  </View>
+);
+
+class Router extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      cameraRoll: {},
-      error: false,
-      errorMessage: '',
-    }
-    this.accessCameraApi = this.accessCameraApi.bind(this);
-    this.accessCameraRoll = this.accessCameraRoll.bind(this);
+      backButton: false
+    };
+    this.shouldRenderBackButton = this.shouldRenderBackButton.bind(this);
   }
-  accessCameraApi() {
-    console.log('Accessing camera api');
+
+  shouldRenderBackButton(bool, history) {
+    this.history = history;
+    this.setState({ backButton: bool });
   }
-  accessCameraRoll() {
-    console.log('Accessing camera roll');
-    CameraRoll.getPhotos({first: 20})
-      .then(photos => {
-        this.setState({
-          cameraRoll: photos,
-        });
-        console.log(photos);
-      })
-      .catch(e => {
-        this.setState({
-        error: true,
-        errorMessage: e.message,
-      });
-      });
-  }
+
   render() {
-    console.log(this.state);
-    return (
-      <View style={styles.container}>
-        {this.state.error === true ? <Text style={styles.error}>{this.state.errorMessage}</Text> : <Text>Press below to take a picture and begin!</Text>}
-        <View style={styles.buttons}>
-          <Button onPress={this.accessCameraRoll} title="From Camera Roll" color="blue" />
-          <Button onPress={this.accessCameraApi} title="Take a picture" color="steelblue" />
+    return [
+      <NavigationBar
+        {...this.state}
+        handleBackPress={() => {
+          this.shouldRenderBackButton(false, this.history);
+          this.history.push("/");
+        }}
+        key="navBar"
+      />,
+      <NativeRouter key="router">
+        <View style={styles.container}>
+          <Route exact path="/" component={Home} />
+          <Route
+            path="/cameraRoll"
+            render={props => (
+              <PhotoLibrary
+                {...props}
+                shouldRenderBackButton={this.shouldRenderBackButton}
+              />
+            )}
+          />
         </View>
-      </View>
-    );
+      </NativeRouter>
+    ];
   }
 }
 
+export const colors = {
+  darkGrey: "#222",
+  lightGrey: "#e9e9e9",
+  emerald: "#2ecc71",
+  lightEmerald: "#b1dfbb",
+  gold: "#f6b01c",
+  blue: "#3498db"
+};
+
+const NavigationBar = ({ backButton, handleBackPress }) => (
+  <View style={styles.nav}>
+    <View style={styles.navSpacer}>
+      {backButton && (
+        <Text onPress={handleBackPress} style={styles.navButton}>
+          {" "}
+          {"<"} Back{" "}
+        </Text>
+      )}
+    </View>
+    <Text style={styles.navText}>clippR ✂️ ✂️ ✂️ ✂️</Text>
+    <View style={styles.navSpacer} />
+  </View>
+);
+
 const styles = StyleSheet.create({
+  nav: {
+    height: 80,
+    paddingTop: 10,
+    justifyContent: "space-between",
+    alignItems: "center",
+    flexDirection: "row"
+  },
+  navText: {
+    fontSize: 20,
+    alignSelf: "center",
+    flex: 0.5
+  },
+  navButton: {
+    marginLeft: 20
+  },
+  navSpacer: {
+    flex: 0.25
+  },
   container: {
     flex: 1,
-    backgroundColor: 'skyblue',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: colors.lightGrey,
+    alignItems: "center",
+    justifyContent: "center"
   },
-  buttons: {
-    flex: 0,
-    flexDirection: 'row',
-  },
-  error: {
-    color: 'red',
+  homeButton: {
+    backgroundColor: colors.lightEmerald,
+    letterSpacing: 2,
+    padding: 30,
+    fontSize: 20,
+    borderColor: colors.darkGrey,
+    borderWidth: 5,
+    borderRadius: 10
   }
 });
