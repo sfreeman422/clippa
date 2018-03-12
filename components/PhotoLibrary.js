@@ -29,7 +29,6 @@ export default class PhotoLibrary extends Component {
   }
 
   render() {
-    console.log(this.props.history);
     return (
       <View style={styles.LibraryViewContainer}>
         <ScrollView contentContainerStyle={styles.photoContainer}>

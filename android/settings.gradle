@@ -1,0 +1,3 @@
+rootProject.name = 'clippa'
+
+include ':app'
