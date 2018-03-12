@@ -4,11 +4,13 @@ import { NativeRouter, Route, Link } from "react-router-native";
 
 import PhotoLibrary from "./components/PhotoLibrary";
 
-export default () => (
-  <View style={{ flex: 1 }}>
-    <Router />
-  </View>
-);
+export default function App() {
+  return (
+    <View style={{ flex: 1 }}>
+      <Router />
+    </View>
+  );
+}
 
 const Home = () => (
   <View
