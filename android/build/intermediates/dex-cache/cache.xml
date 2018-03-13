@@ -3,192 +3,192 @@
 
     <item
         is-multidex="false"
-        jar="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="af61eb11ffb4296cab0c93218248a3dfcec0a84c">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.52.0_b7baa58ad2aacefed331fc365a3f3da9ef1efd5e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_5a5ae8586005b690643b175ea7aad4443e79644c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_012eb8c211175def1d33dab2466d44fa6b788f54.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_b6d27020ddee3c3af6205fcb4ffa83249bd43aba.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_6329f80f4a886aae56c185c462efee93cc21aedf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_1d5e7c3999615acec5ccb13dc766e4803d09590d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_02e222a7258158f0ed241d7c5eeb8b03eb03e1c5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_5622baeece8ff8474e2596a2c2e5e401c356cf1d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_9b156901673a630f13986a539a0ae6019145f195.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_4e39d3f5cb57271c2afc68b6287494c975921c68.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_66941fee5a126a48a725ad90fe408a1c74bbe61d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_ab6592256d0ad2ba8494382083864962fafe18b1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_654702b165304021bee9591c5a907878b9955ec1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_c3272ac93e8443c46776776a986db6608fe108dc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_c3d9c7ecd6dedbae856d2868000fe66d66b340ff.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_8f175801e6d84a74661f698a4c05623124f068c5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_f653130b3838cf3fdb12b9d338408f7ab7a11827.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_a3cc7a347c728a50cff127b23eb4ef7ba8875841.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_44c1be89dd712596daa7b5fac402e9bb4de9f7d0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_37ff27337c062814eb835ad8f7e6c80c6fffbc66.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jar="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_43b51a084ec5ba37a0365dc1ea2d3b556996a9d5.jar" />
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_e3f168107b43e2308e606153bae81949a9e43e6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_a4a959149e830d954da206d314ec5936108014b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_fe372f990bd8809d5976fb2e159d025f46e876cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_4876eabff8b4861cd5b22b733edf770b05e56615.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_b1ea84ac88f2d8b1872dbbd8799feb4690ebfb1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_5a758d042632bfde6573212915bf8b5b650ee327.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_dbc138ddaf01b553bf7c3931b6158747bcf2ea55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_2672fe982070d57ebe4c8e417e446425350186e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_0b613f975532c36d292e78dad082e5118ba00e5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_68c40136e1c11b5f28c0150129c129ace9955761.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="af61eb11ffb4296cab0c93218248a3dfcec0a84c">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.52.0_374cac908ef450c836b32b773fa2cf38cbbf5d9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_3fa1ae625233af098ecd7e81bd79734ca140c46a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_5a8172192f830147109e561ed1f60d5650508726.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_3b0d1189dcd7bb49d79160a776606f67796a214f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_4d0fc3b07bb2621eddd3b4035ebadf6b198b73b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_57f0fdac5f3a415709810856b24ac255ecd67be9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_7ff2824fbe33eca4b5994c1a7cc7bdf6699cd7c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_0f8e53af39e1893d6c4b12de5a911ba0dcdd8fe5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_2dc676689566342fc4841ad7fcd45cbcc092579b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_ac94288fa24ccd81641a774a594f4fc7d220fa1a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_f76d324686d1d236db3b6c382e48f652496cfc79.jar" />
     </item>
 
 </items>

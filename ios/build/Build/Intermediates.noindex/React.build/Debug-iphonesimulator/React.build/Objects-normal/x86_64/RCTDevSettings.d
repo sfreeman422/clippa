@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/sfreeman/Desktop/projects/clippa/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/sfreeman/Desktop/projects/clippa/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h

@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Modules/RCTStatusBarManager.m \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Modules/RCTStatusBarManager.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/sfreeman/Desktop/projects/clippa/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/sfreeman/Desktop/projects/clippa/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/sfreeman/Desktop/projects/clippa/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Modules/RCTEventEmitter.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/sfreeman/Desktop/projects/clippa/node_modules/react-native/React/Base/RCTEventDispatcher.h

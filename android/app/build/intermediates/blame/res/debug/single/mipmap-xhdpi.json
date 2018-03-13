@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/sfreeman/Desktop/projects/clippa/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/sfreeman/Desktop/projects/clippa/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/max.lasky/projects/persona/clippa/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
         "source": "/Users/max.lasky/projects/persona/clippa/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }
