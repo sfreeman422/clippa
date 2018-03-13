@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import { NativeRouter, Route, Link } from "react-router-native";
 
-import PhotoLibrary from "./components/PhotoLibrary";
+import PhotoLibrary from "./components/gallery/PhotoLibrary";
 
 export default function App() {
   return (
