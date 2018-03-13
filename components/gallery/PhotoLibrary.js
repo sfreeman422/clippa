@@ -1,17 +1,9 @@
 "use strict";
 
 import React, { Component } from "react";
-import {
-  StyleSheet,
-  Text,
-  View,
-  ScrollView,
-  CameraRoll,
-  Image,
-  TouchableOpacity
-} from "react-native";
-
+import { StyleSheet, Text, View, ScrollView, CameraRoll } from "react-native";
 import Dimensions from "Dimensions";
+import Photo from "./Photo";
 
 const window = Dimensions.get("window");
 
@@ -21,11 +13,27 @@ export default class PhotoLibrary extends Component {
     this.state = {
       photos: []
     };
+    this.accessCameraRoll = this.accessCameraRoll.bind(this);
   }
 
   async componentDidMount() {
     this.props.shouldRenderBackButton(true, this.props.history);
-    this.setState(await accessCameraRoll());
+    this.setState(await this.accessCameraRoll());
+  }
+
+  accessCameraRoll() {
+    return CameraRoll.getPhotos({ first: 20 })
+      .then(photos =>
+        Promise.resolve({
+          photos: photos.edges
+        })
+      )
+      .catch(e =>
+        Promise.resolve({
+          error: true,
+          errorMessage: e.message
+        })
+      );
   }
 
   render() {
@@ -45,43 +53,11 @@ export default class PhotoLibrary extends Component {
   }
 }
 
-const Photo = ({ photo }) => (
-  <TouchableOpacity style={styles.photoThumbContainer}>
-    <Image style={styles.thumbnail} source={{ uri: photo.node.image.uri }} />
-  </TouchableOpacity>
-);
-
-function accessCameraRoll() {
-  return CameraRoll.getPhotos({ first: 20 })
-    .then(photos =>
-      Promise.resolve({
-        photos: photos.edges
-      })
-    )
-    .catch(e =>
-      Promise.resolve({
-        error: true,
-        errorMessage: e.message
-      })
-    );
-}
-
 const styles = StyleSheet.create({
   photoContainer: {
     flexDirection: "row",
     flexWrap: "wrap",
     width: window.width,
     alignSelf: "center"
-  },
-  photoThumbContainer: {
-    width: window.width / 3,
-    justifyContent: "center",
-    alignItems: "center",
-    height: window.width / 3
-  },
-  thumbnail: {
-    marginTop: 5,
-    width: window.width / 3.1,
-    height: window.width / 3.1
   }
 });
