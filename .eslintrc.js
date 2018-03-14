@@ -4,7 +4,7 @@ module.exports = {
     commonjs: true,
     es6: true
   },
-  extends: "airbnb-base",
+  // extends: "airbnb-base",
   parserOptions: {
     ecmaFeatures: {
       experimentalObjectRestSpread: true,
@@ -13,6 +13,7 @@ module.exports = {
     sourceType: "module"
   },
   plugins: ["react", "react-native", "prettier"],
+  parser: "babel-eslint",
   rules: {
     strict: [0],
     "no-unused-vars": ["error", { varsIgnorePattern: "React" }],

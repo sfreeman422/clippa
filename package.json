@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "babel-eslint": "^7.2.3",
     "babel-preset-react-native-stage-0": "^1.0.1",
-    "eslint": "^4.18.2",
+    "eslint": "^3.19.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-config-prettier-standard": "^1.0.1",
@@ -25,7 +26,8 @@
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "test": "node node_modules/jest/bin/jest.js"
+    "test": "node node_modules/jest/bin/jest.js",
+    "postinstall": "./post.sh"
   },
   "jest": {
     "preset": "react-native"
@@ -33,6 +35,7 @@
   "dependencies": {
     "react": "16.2.0",
     "react-native": "0.52.0",
+    "react-native-camera": "^1.0.2",
     "react-router-native": "^4.2.0"
   }
 }

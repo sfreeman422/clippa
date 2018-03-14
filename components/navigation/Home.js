@@ -20,7 +20,7 @@ const Home = () => (
       <Text style={styles.homeButton}> Camera Roll</Text>
     </Link>
     <Link
-      to="/cameraRoll"
+      to="/camera"
       component={TouchableOpacity}
       underlayColor="#f0f4f7"
       style={styles.navItem}
