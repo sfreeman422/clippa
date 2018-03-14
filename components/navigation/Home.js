@@ -1,7 +1,7 @@
 import React from "react";
-import { Text, View, TouchableOpacity } from "react-native";
+import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import { Link } from "react-router-native";
-import styles from "../../styles/styles";
+import colors from "../../styles/colors";
 
 const Home = () => (
   <View
@@ -29,5 +29,17 @@ const Home = () => (
     </Link>
   </View>
 );
+
+const styles = StyleSheet.create({
+  homeButton: {
+    backgroundColor: colors.lightEmerald,
+    letterSpacing: 2,
+    padding: 30,
+    fontSize: 20,
+    borderColor: colors.darkGrey,
+    borderWidth: 5,
+    borderRadius: 10
+  }
+});
 
 export default Home;

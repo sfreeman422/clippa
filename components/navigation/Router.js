@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import { NativeRouter, Route } from "react-router-native";
 import Home from "./Home";
 import NavigationBar from "./NavigationBar";
 import PhotoLibrary from "../gallery/PhotoLibrary";
-import styles from "../../styles/styles";
+import colors from "../../styles/colors";
 
 class Router extends Component {
   constructor(props) {
@@ -47,5 +47,14 @@ class Router extends Component {
     ];
   }
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: colors.lightGrey,
+    alignItems: "center",
+    justifyContent: "center"
+  }
+});
 
 export default Router;

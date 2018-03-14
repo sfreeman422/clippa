@@ -1,9 +1,17 @@
 "use strict";
 
 import React, { Component } from "react";
-import { Text, View, ScrollView, CameraRoll } from "react-native";
-import styles from "../../styles/styles";
+import {
+  Dimensions,
+  StyleSheet,
+  Text,
+  View,
+  ScrollView,
+  CameraRoll
+} from "react-native";
 import Photo from "./Photo";
+
+const window = Dimensions.get("window");
 
 class PhotoLibrary extends Component {
   constructor(props) {
@@ -50,5 +58,14 @@ class PhotoLibrary extends Component {
     );
   }
 }
+
+const styles = StyleSheet.create({
+  photoContainer: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    width: window.width,
+    alignSelf: "center"
+  }
+});
 
 export default PhotoLibrary;

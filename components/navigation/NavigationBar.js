@@ -1,6 +1,5 @@
 import React from "react";
-import { View, Text } from "react-native";
-import styles from "../../styles/styles";
+import { StyleSheet, View, Text } from "react-native";
 
 const NavigationBar = ({ backButton, handleBackPress }) => (
   <View style={styles.nav}>
@@ -17,4 +16,24 @@ const NavigationBar = ({ backButton, handleBackPress }) => (
   </View>
 );
 
+const styles = StyleSheet.create({
+  nav: {
+    height: 80,
+    paddingTop: 10,
+    justifyContent: "space-between",
+    alignItems: "center",
+    flexDirection: "row"
+  },
+  navText: {
+    fontSize: 20,
+    alignSelf: "center",
+    flex: 0.5
+  },
+  navButton: {
+    marginLeft: 20
+  },
+  navSpacer: {
+    flex: 0.25
+  }
+});
 export default NavigationBar;
