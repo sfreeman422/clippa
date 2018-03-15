@@ -14,20 +14,18 @@ import Photo from "./Photo";
 const window = Dimensions.get("window");
 
 class PhotoLibrary extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      photos: []
-    };
-    this.accessCameraRoll = this.accessCameraRoll.bind(this);
-  }
+  state = {
+    photos: []
+  };
 
+  // TODO: maybe all children should just do this by default HOC???
   async componentDidMount() {
     this.props.shouldRenderBackButton(true, this.props.history);
     this.setState(await this.accessCameraRoll());
   }
 
-  accessCameraRoll() {
+  accessCameraRoll = () => {
+    console.log(CameraRoll);
     return CameraRoll.getPhotos({ first: 20 })
       .then(photos =>
         Promise.resolve({
@@ -40,7 +38,7 @@ class PhotoLibrary extends Component {
           errorMessage: e.message
         })
       );
-  }
+  };
 
   render() {
     return (
